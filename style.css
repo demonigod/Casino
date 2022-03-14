@@ -173,7 +173,7 @@
     height: 4.56rem;
 }
 .container{
-    height: 150vh;
+    height: 168vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -185,7 +185,7 @@ width: 100%;
 }
 /* left part */
 .side-container{
-      height: 150vh;
+      height: 168vh;
       width: 30%;
       background:linear-gradient( rgba(194, 25, 25, 0.852) 100%, rgba(228, 52, 52, 0.852)100%),url("./images/leftpic.jpg") ;
       background-size: cover;
@@ -194,7 +194,7 @@ width: 100%;
 /* Right part */
 
 .first-sec{
-    height: 150vh;
+    height: 168vh;
       width: 69.6%;
       background:linear-gradient( rgba(194, 25, 25, 0.852) 100%, rgba(228, 52, 52, 0.852)100%),url("./images/dice.jpg") ;
       background-size: cover;
