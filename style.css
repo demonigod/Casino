@@ -32,7 +32,7 @@
    align-items: center;
 }
 .ball1{
-    height: 4rem;
+    height: 4.89rem;
      
 }
 .ball1 img{
@@ -80,14 +80,14 @@
     height: 4.56rem;
 }
 .ball7{
-    height: 4rem;
+    height: 4.67rem;
    
 }
 .ball7 img{
     height: 4.56rem;
 }
 .ball8{
-    height: 4rem;
+    height: 4.78rem;
   
 }
 .ball8 img{
@@ -172,13 +172,19 @@
 .ball19 img{
     height: 4.56rem;
 }
-.container{
+.containerm{
     height: 168vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
+  /* padding-right: unset;
+  padding-left: unset;
+  margin-right: unset;
+  margin-left:unset; */
 }
+
 .both-balls{
     display: flex;
 width: 100%;
@@ -187,7 +193,7 @@ width: 100%;
 .side-container{
       height: 168vh;
       width: 30%;
-      background:linear-gradient( rgba(194, 25, 25, 0.852) 100%, rgba(228, 52, 52, 0.852)100%),url("./images/leftpic.jpg") ;
+      background:linear-gradient( rgba(92, 11, 11, 0.852) 100%, rgba(70, 17, 17, 0.852)100%),url("./images/leftpic.jpg") ;
       background-size: cover;
    
 }
@@ -218,12 +224,27 @@ justify-content:center;
 
 }
 
-h1{
+.heading  h1{
     font-family: 'Roboto', sans-serif;
     font-size: 38px;
     color: white;
 }
-h2{
+ .head-hot  h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: white;
+}
+ .head-cold  h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: white;
+}
+.red-black  h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: white;
+}
+.min-max h2{
     font-family: 'Roboto', sans-serif;
     font-size: 26px;
     color: white;
@@ -253,6 +274,29 @@ h2{
     width:100%;
 
     
+}
+
+/* popup */
+li{
+    position: relative;
+}
+.popup{
+    position: absolute;
+ top: 1.96rem;
+ left: 2.75rem;
+}
+.popup h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      background-color: white;
+      height: 18px;
+      width: 30px;
+      font-size: 13px;
+    color: black;
+    border-radius: 1px;
+
 }
 /* third left */
 .hot{
@@ -356,8 +400,8 @@ li img{
 
 .pehla{
     height: 8vh;
-    width:97%;
-    background:linear-gradient( rgba(224, 1, 1, 0.73) 100%, rgba(218, 12, 12, 0.82)100%) ;
+    width:100%;
+    /* background:linear-gradient( rgba(224, 1, 1, 0.73) 100%, rgba(218, 12, 12, 0.82)100%) ; */
     display: flex;
 justify-content: flex-start;
 align-items: center;
@@ -388,6 +432,7 @@ align-items: center;
     font-size: 19px;
 }
 .last{
+  
     height: 5rem;
     width: 100%;
     background-color: black;
