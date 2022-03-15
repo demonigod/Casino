@@ -25,6 +25,19 @@
     height: 3rem;
 }
 
+/* popup */
+.popup h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 14px;
+  width: 19px;
+  font-size: 11px;
+  color: black;
+}
+
 /* left side */
 .big-first-ball img {
     height: 17vh;
@@ -87,6 +100,10 @@
 }
 
 @media only screen and (max-width: 552px) {
+  
+
+ 
+ 
 
      .heading h1 {
         font-family: 'Roboto', sans-serif;
@@ -130,71 +147,88 @@
 
     height: 2rem;
 }
+/* popup */
+.popup {
+  position: absolute;
+  top: 1.66rem;
+  left: 2.25rem;
+}
+
+/* new */
+.popup h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 14px;
+  width: 26px;
+}
 
 /* left side */
 .big-first-ball img {
     height: 10vh;
   }
   .ball1 img {
-    height: 3rem;
+    height: 3.34rem;
   }
   .ball2 img {
-    height: 3rem;
+    height: 3.34rem;
   }
   .ball3 img {
-  height: 2.56rem;
+    height: 3.34rem;
 }
 .ball4 img {
-    height: 2.56rem;
+  height: 3.34rem;
   }
 
   .ball5 img {
-    height: 3rem;
+    height: 3.34rem;
   }
   .ball6 img {
-    height: 3rem;
+    height: 3.34rem;
   }
   .ball7 img {
-  height: 3rem;
+    height: 3.34rem;
 }
 .ball8 img {
-    height: 3rem;
+  height: 3.34rem;
   }
   .ball9 img {
-    height: 3rem;
+    height: 3.34rem;
   }
   .ball11 img {
-  height: 3rem;
+    height: 3.34rem;
 }
 .ball12 img {
-    height: 3rem;
+  height: 3.34rem;
   }
   .ball13 img {
-    height: 2.56rem;
+    height: 3.34rem;
   }
   .ball14 img {
-      height: 2.56rem;
+    height: 3.34rem;
     }
   .ball15 img {
-  height: 3rem;
+    height: 3.34rem;
 }
 .ball16 img {
-  height: 3rem;
+  height: 3.34rem;
 }
 .ball17 img {
-    height: 3rem;
+  height: 3.34rem;
   }
   .ball18 img {
-    height: 3rem;
+    height: 3.34rem;
   }
   .ball19 img {
-  height: 3rem;
+    height: 3.34rem;
 }
 }
 
 @media only screen and (max-width: 442px) {
 
-    .container {
+    .containerm {
         height: 168vh;
         }
         .side-container {
@@ -255,61 +289,83 @@
 
 /* left side */
 .big-first-ball img {
-   height: 9vh;
+   height: 10vh;
  }
  .ball1 img {
-   height: 2.23rem;
+   height: 2.83rem;
  }
  .ball2 img {
-   height: 2.23rem;
+   height:  2.83rem;
  }
  .ball3 img {
- height: 1.86rem;
+ height:  2.83rem;
 }
 .ball4 img {
-   height: 1.86rem;
+   height: 2.83rem;
  }
 
  .ball5 img {
-   height: 2.23rem;
+   height: 2.83rem;
  }
  .ball6 img {
-   height: 2.23rem;
+   height: 2.83rem;
  }
  .ball7 img {
- height: 2.23rem;
+ height:  2.83rem;
 }
 .ball8 img {
-   height: 2.23rem;
+   height: 2.83rem;
  }
  .ball9 img {
-   height:2.23rem;
+   height: 2.83rem;
  }
  .ball11 img {
- height: 2.23rem;
+ height:  2.83rem;
 }
 .ball12 img {
-   height: 2.23rem;
+   height:  2.83rem;
  }
  .ball13 img {
-   height: 1.86rem;
+   height:  2.83rem;
  }
  .ball14 img {
-     height: 1.86rem;
+     height:  2.83rem;
    }
  .ball15 img {
- height: 2.23rem;
+ height: 2.83rem;
 }
 .ball16 img {
- height:2.23rem;
+ height: 2.83rem;
 }
 .ball17 img {
-   height: 2.23rem;
+   height:  2.83rem;
  }
  .ball18 img {
-   height: 2.23rem;
+   height:  2.83rem;
  }
  .ball19 img {
- height: 2.23rem;
+ height: 2.83rem;
 }
+li img {
+  height: 2.83rem;
+  }
+  .popup h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 11px;
+    font-size: 9px;
+    width: 19px;
+  }
+
+}
+
+@media only screen and (max-width: 400px){
+  .popup {
+    position: absolute;
+    top: 1.36rem;
+    left: 1.67rem;
+  }
 }
